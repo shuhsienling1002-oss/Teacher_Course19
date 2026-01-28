@@ -163,7 +163,7 @@ SENTENCES = [
      "zh": "我們沿著山脈走。", 
      "emoji": "⛰️", "file": "s_midungdung"},
      
-    {"amis": "Milakec Ci La’is Akung tu sauwac, tayla i Dawlik a paluma tu kudasing.", 
+    {"amis": "Milakec Ci La'is Akung tu sauwac, tayla i Dawlik a paluma tu kudasing.", 
      "zh": "La’is 阿公越過溪流，去月眉種花生。", 
      "emoji": "🥜", "file": "s_milakec"},
 ]
@@ -392,3 +392,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
