@@ -50,8 +50,19 @@ st.markdown("""
         margin: 0;
     }
     
-    .sub-title { color: #33691E; font-size: 18px; margin-top: 5px; font-weight: bold; }
-    .teacher-tag { display: inline-block; margin-top: 10px; padding: 5px 15px; background: #FF9800; color: #FFF; border-radius: 50px; font-size: 12px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+    .sub-title { color: #33691E; font-size: 20px; margin-top: 5px; font-weight: bold; letter-spacing: 1px; }
+    
+    .teacher-tag { 
+        display: inline-block; 
+        margin-top: 12px; 
+        padding: 6px 18px; 
+        background: #FF9800; 
+        color: #FFF; 
+        border-radius: 50px; 
+        font-size: 13px; 
+        font-weight: bold; 
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2); 
+    }
 
     /* --- Cards (單字卡) --- */
     .word-card {
@@ -365,8 +376,8 @@ def main():
     st.markdown("""
     <div class="header-container">
         <h1 class="main-title">Nanuwang</h1>
-        <div class="sub-title">阿美語：移動與動作篇</div>
-        <div class="teacher-tag">教材提供：阿美語數位賦能計畫</div>
+        <div class="sub-title">移動與動作篇</div>
+        <div class="teacher-tag">講師：孫秀蘭 | 教材提供者：孫秀蘭</div>
     </div>
     """, unsafe_allow_html=True)
     
